@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cartoon Movie Cinema</title>
+        <link rel="shortcut icon" href="images/cinema photo2.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <header>
+            <div id="logoandname">
+                <img id="headerlogo" height="40px" src="images/cinema photo2.jpg" alt="logo">
+                <a href="index.html">
+                    <h1 id="headermaintext">CARTOON MOVIE CINEMA</h1>
+                </a>
+            </div>
+            <nav id="navbar">
+                <a class="headernav" href="index.html">HOME</a>
+                <a class="headernav" href="contact_us.html">CONTACT US</a>
+                <a class="headernav" href="about_us.html">ABOUT US</a>
+            </nav>
+        </header>
+    
+    
+        <main>
+        <h2 align="center" >CONTACT US</h2>
+        <h3 align="center" >We are excited to know how we can serve you better!!!</h3>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.179167160275!2d3.4918676113055!3d6.624654221950417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bed5c544073bd%3A0x924dd9c7bacf16e0!2sNew%20Horizons%20Computer%20Learning%20Center%20Ikorodu!5e0!3m2!1sen!2sng!4v1688325991951!5m2!1sen!2sng" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="contactform">
+            <form>
+                <label for="name">NAME:</label>
+                <input type="text" id="name" size="30" style="background-color: #FEED49;" placeholder="e.g. John Doe" ><br>
+                <label for="email">E-MAIL ADDRESS:</label>
+                <input type="email" id="email" size="30" style="background-color: #FEED49;" placeholder="e.g. xyz@yahoo.com" ><br>
+                <label for="telephone">PHONE NUMBER:</label>
+                <input type="text" id="telephone" size="30" style="background-color: #FEED49;" placeholder="e.g. 080xxxxxxxx"  ><br>
+                <label for="feedback">YOUR FEEDBACK:</label><br>
+                <textarea placeholder="Type your feedback here..."   id="feedback" cols="30" rows="10" style="background-color: #FEED49;"></textarea><br>
+                <fieldset style="border: 1px solid #C11E27;">
+                    <legend>HOW WOULD YOU PREFER WE RESPOND WHERE NECESSARY?</legend>
+                    <input type="radio" id="email" name="fav_response" value="email">
+                    <label for="email">E-mail</label>                        
+                    <input type="radio" id="call" name="fav_response" value="call">
+                    <label for="call">Phone Call</label>                        
+                    <input type="radio" id="text" name="fav_response" value="text">
+                    <label for="text">Text Message</label> 
+                    
+                    <input type="radio" id="none" name="fav_response" value="none">
+                    <label for="none">None</label>
+                    
+                    <input type="radio" id="other" name="fav_response" value="other">
+                    <label for="other">Other</label>
+                    <input type="text" name="other" id="other" placeholder="Specify..."  style="background-color: #FEED49;">
+                    
+                </fieldset><br>        
+                <input type="checkbox" name="subscribe" id="subscribe">
+                <label for="subscribe">SUBSCRIBE TO OUR NEWSLETTER</label><br>
+                <a href="feedback.html">
+                    <input  style="background-color: #C11E27; color: #FEED49;" type="button" value="SUBMIT">
+                </a>                 
+            </form>
+        </div>
+        
+    </main>
+
+    <footer>
+        <img src="images/cinema photo2.jpg" alt="logo" height="20px">
+        <p id="footertext"> © 2023 CARTOON MOVIE CINEMA</p>
+    </footer>
+    
+</body>
+</html>

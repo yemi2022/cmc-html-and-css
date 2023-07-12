@@ -1,0 +1,295 @@
+/* for mobile */
+@media only screen and (max-width: 768px) {
+  /* header section begins */
+    body{
+        margin: 0;
+    }
+
+    header {
+        background-color: #FEED49;
+        opacity: 0.9;
+        position: fixed;
+        top: 0;
+        width: 100vw; 
+        max-height: 7vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    }
+
+    #logoandname{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -2em !important;
+        transform: scale(.6);
+    }
+
+    #logoandname:hover{
+        transform: none;
+    }
+
+    #headermaintext {
+        color: #C11E27;
+        font-size: 1.4em;
+    }
+
+    nav{
+        margin-left: -60px;
+    }
+
+    .headernav {
+      padding: 0 2px;
+      text-decoration: none;  
+      color: #000; 
+      font-size: .7em !important;
+  }
+  
+  .headernav:hover{
+      color: #ad0009;
+      transition: .2s ease-in;
+      font-size: .6em;
+  }
+
+  /* header section ends */
+
+  /* main section begins */
+  main{
+    padding: 10px 0px 0px;
+    margin: 12% 2% 2% !important; 
+    max-width: 95vw;
+  }
+
+  .description{
+    font-size: 1em;
+    color: #000;
+    margin: .7em .7em 1em;
+  }
+
+  #map{
+    max-width: 95vw !important;
+    height: 40vh !important;
+   }
+
+
+  /* main section ends */
+
+  /* footer section begins */
+  footer{
+    width: 100%; 
+    max-height: 5vh;
+    background-color: #02345e85 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footertext {
+    color: #353434;
+    font-size: .6em !important;
+    margin-left: 1em;
+}
+
+  /* footer section ends */
+}
+
+
+
+/* header css starts here */
+
+/* set body margin to zero */
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/*style="background-color: #FEED49;  */
+header {
+    background-color: #FEED49;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    width: 100vw; 
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+}
+
+header:hover{
+    opacity: 1;
+    transition: .4s ease-in;
+}
+
+#logoandname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+a{
+    text-decoration: none;     
+    cursor: default; 
+    margin: 0;
+}
+
+#headerlogo {
+    margin-top: 0%;
+}
+
+#headermaintext {
+    color: #C11E27;
+    font-size: 1.5em;
+}
+
+nav{
+    margin-right: 1%;
+}
+
+.headernav {
+    text-decoration: none;  
+    color: #000; 
+    padding: 0 10px; 
+    font-size: .9em;
+    font-weight: lighter; 
+}
+
+.headernav:hover{
+    background-color: #000000c9;
+    border-radius: 1em;
+    color: #FEED49;
+    transition: .1s ease-in;
+}
+
+
+
+/* header css ends here */
+
+/* main section starts */    
+ 
+ main{
+     margin: 8% 2% 2%; 
+     color: #493548;
+     max-width: 95vw;
+ }
+ 
+ #toptitle{
+     color: #0377d6;
+     font-size: 1em;
+     margin-left: 2em;
+     margin-bottom: 1.5em;
+ }
+ 
+ .descriptionboxwrap{
+   padding: 1rem;
+   background: linear-gradient(to right, #fff,  #FEED49);
+   padding: 3px;
+   border-radius: .75em;
+ }
+ 
+ .descriptionboxwrap:hover {    
+   transform: scale(1.1);
+   transition: .2s ease-in;
+ }
+ 
+ .descriptionbox{
+   border: none;
+   width: 30vw;
+   min-width: 320px;
+   /* height: 75vh; */
+   border-radius: 0.75em;
+   background-color: #83b5dd;
+ }
+ 
+ #movietable{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 1em;
+ }
+ .description{
+   font-size: 1em;
+   color: #000;
+   margin: .7em .7em 1em;
+ }
+ 
+ .movieimage{
+   width: 200px;
+   height: 270px;
+ }
+ 
+ .movietitle{
+   margin: 0;
+   padding: 0;
+   font-size: 1em;
+   color: #000;
+ }
+ 
+ .watchbtn{
+   border: none;
+   border-radius: 1em;
+   background-color: #FEED49;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+   height: 2em;
+   width: 12em;
+   font-size: .75em;
+   font-weight: bold;
+   margin-bottom: 3em;
+ }
+ 
+ .watchbtn:hover{
+   transform: scale(1.1);   
+   transition: .2s ease-in;
+ }
+ 
+ .videoframe{
+   width: 90vw;
+   height: 70vh;
+ }
+ 
+ .framediv{
+   width: 100vw;
+   height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 3em;
+   margin-left: -1em;
+ }
+
+ #map{
+  max-width: 60vw;
+  height: 50vh;
+ }
+
+ #contactform{
+  max-width: 90vw;
+ }
+
+ .movieheading{
+  display: flex;
+  justify-content: center;
+ }
+
+ /* main section ends */
+
+ /* footer section css starts here */
+ footer{
+    width: 100%; 
+    background-color: #02345e85;
+    display: flex;
+    max-height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#footertext {
+    color: #080808;
+    font-size: .8em;
+    margin-left: 1em;
+}
+ /* footer section css ends here */
